@@ -22,3 +22,8 @@ I have seen another website, it worth to have a look at
 
 https://www.landinglion.com/
 
+......this is Montaser........................................................................
+hello mojtaba, i already pushed the image slider but unfortunately I realized that it is with js so it makes no sence,  however u can have a look at it
+hello guys, did you find some interesting websites that we can use for our project? 
+.................end......................................................
+
