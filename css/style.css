@@ -32,7 +32,7 @@ iframe {
 	top: -55px;
 	left: 0;
 	width: 100%;
-    height: 112%;
+    height: 133%;
     z-index: -1;
 }
  .transparent{
@@ -390,7 +390,8 @@ height:180%;
 }
 @media only screen and (max-height: 600px) {
     iframe{
-height: 222vh;
+    height: 270vh;
+    width:160%;
     }
     .transparent{
         font-size: 7rem;
@@ -400,9 +401,101 @@ height: 222vh;
         width:18vw;
     }
 }
-@media only screen and (max-height: 400px) {
+@media only screen and (max-height: 500px) {
     iframe{
-height: 300vh;
+    height: 270vh;
+    width:130%;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and (max-height: 420px) {
+    iframe{
+height: 266vh;
+width:110%; 
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and (max-height: 330px) {
+    iframe{
+height: 550vh;
+width:180%;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+
+@media only screen and (max-height: 200px) {
+    iframe{
+height: 550vh;
+width:110%;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and (max-height: 200px) {
+    iframe{
+height: 550vh;
+width:130%;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and (max-height: 330px) and (max-width:900px ) {
+    iframe{
+height: 550vh;
+width:500%;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and (max-height: 500px) and (max-width:800px ) {
+    iframe{
+height: 550vh;
+width:400%;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and (max-height: 200px) {
+    iframe{
+height: 660vh;
     }
     .transparent{
         font-size: 7rem;
@@ -424,7 +517,7 @@ width:220%;
         width:18vw;
     }
 }
-@media only screen and (min-width: 1300px) {
+/* @media only screen and (min-width: 1300px) {
     iframe{
 width:110%;
     }
@@ -435,5 +528,5 @@ width:110%;
     .hideHolder{
         width:18vw;
     }
-}
+} */
 
