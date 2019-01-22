@@ -90,6 +90,7 @@ iframe {
     display:inline-block;
     text-align: center;
     padding:0;
+    padding-left: 3px;
     margin:0;
 }
 @keyframes showme1{
@@ -338,3 +339,101 @@ background-color: white;
 .dropdown:not(:hover)>.dropdown2{
     height: 0;
 }
+ @media only screen and (max-width: 900px) {
+    iframe{
+width: 180%;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and (max-width: 800px) {
+    iframe{
+width: 220%;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and (max-width: 600px) {
+    iframe{
+width: 220%;
+    }
+    .transparent{
+        font-size: 8rem;
+
+    }
+    .hideHolder{
+        width:19vw;
+    }
+}
+@media only screen and (max-width: 450px) {
+    iframe{
+width: 550%;
+height:180%;
+    }
+    .transparent{
+        font-size: 8rem;
+
+    }
+    .hideHolder{
+        width:22vw;
+    }
+}
+@media only screen and (max-height: 600px) {
+    iframe{
+height: 222vh;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and (max-height: 400px) {
+    iframe{
+height: 300vh;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and (min-height: 1300px) {
+    iframe{
+width:220%;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    iframe{
+width:110%;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+
