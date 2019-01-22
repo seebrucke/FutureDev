@@ -27,3 +27,7 @@ hello mojtaba, i already pushed the image slider but unfortunately I realized th
 hello guys, did you find some interesting websites that we can use for our project? 
 .................end......................................................
 
+here is Mojtaba.
+thank you Montaser, the slide show I didn't want it for our project. your help was very useful. I thought that in course, Ahmad did it without js.
+be the way, about the project that we work together. has anybody another Idea?
+please bring your Ideas. thanks all
