@@ -8,9 +8,12 @@ html{
     animation-duration: 3s;
     overflow: hidden;
     position: absolute;
-	padding-bottom: 56.25%; /* 16:9 */
+    /* 16:9 */
+	/* padding-bottom: 56.25%; */
 	padding-top: 0px;
-    height: 0;
+    /* height: 0; */
+    padding-bottom: 0;
+    height: 56.25%;
     z-index: -1;
 }
 body{
@@ -339,585 +342,194 @@ background-color: white;
 .dropdown:not(:hover)>.dropdown2{
     height: 0;
 }
- /* @media only screen and (max-width: 900px) {
-    iframe{
-width: 180%;
-    }
-    .transparent{
-        font-size: 7rem;
-
-    }
-    .hideHolder{
-        width:18vw;
-    }
-} */
-
-/* @media only screen and (max-width: 600px) {
-    iframe{
-width: 220%;
-    }
-    .transparent{
-        font-size: 8rem;
-
-    }
-    .hideHolder{
-        width:19vw;
-    }
-} */
-/* @media only screen and (max-width: 450px) {
-    iframe{
-width: 550%;
-height:180%;
-    } 
-    .transparent{
-        font-size: 8rem;
-
-    }
-    .hideHolder{
-        width:22vw;
+/*  
+@media (max-aspect-ratio: 3/2) {
     
-    }
-}*/
-/* 1500 */
-/* @media only screen and ( max-width: 1500px) and (max-height: 1100px) {
     iframe{
-width: 220%;
-height: 168%;
-    } */
-@media only screen and ( max-width: 1500px) and (max-height: 800px) {
-    iframe{
-        width: 100%;
-        height: 133%;
-    }
-    .transparent{
-        font-size: 7rem;
-
-    }
-    .hideHolder{
-        width:18vw;
-    }
-}
-@media only screen and ( max-width: 1500px) and (max-height: 600px) {
-    iframe{
-    height: 250vh;
-    width:160%;
-    }
-}
-
-@media only screen and ( max-width: 1500px) and (max-height: 500px) {
-    iframe{
-    height: 270vh;
-    width:130%;
-    }
-    .transparent{
-        font-size: 7rem;
-
-    }
-    .hideHolder{
-        width:18vw;
-    }
-}
-@media only screen and ( max-width: 1500px)  and (max-height: 420px) {
-    iframe{
-height: 266vh;
-width:110%; 
-    }
-    .transparent{
-        font-size: 7rem;
-
-    }
-    .hideHolder{
-        width:18vw;
-    }
-}
-@media only screen and ( max-width: 1500px)  and (max-height: 330px) {
-    iframe{
-/* height: 550vh;
-width:110%; */
-height: 505vh;
-width: 187%;
-    }
- 
-}
-@media only screen and ( max-width: 1500px)  and (max-height: 280px) {
-    iframe{
-        height: 560vh;
-        width: 174%;
-    }
-}
-@media only screen and ( max-width: 1500px)  and (max-height: 250px) {
-    iframe{
-height: 550vh;
-width:150%;
-    }
-}
-@media only screen and ( max-width: 1500px)  and (max-height: 200px) {
-    iframe{
-height: 550vh;
-width:110%;
-    }
-}
-
-
-
-
-
-/* 1300 */
-@media only screen and ( max-width: 1300px) and (max-height: 600px) {
-    iframe{
-    height: 230vh;
-    width:160%;
-    }
-}
-@media only screen and ( max-width: 1300px) and (max-height: 500px) {
-    iframe{
-    height: 190vh;
-    width:100%;
-    }
-}
-
-@media only screen and ( max-width: 1300px)  and (max-height: 420px) {
-    iframe{
-height: 266vh;
-width:120%; 
-    }
+        height: 123vh;
+        width: 148%;
+            }
+  }
+  @media (max-aspect-ratio: 9/10) {
     
-}
-
-@media only screen and ( max-width: 1300px)  and (max-height: 330px) {
     iframe{
-height: 420vh;
-width: 150%;
-    }
- 
-}
+        height: 128vh;
+        width: 188%;
+            }
+  }
+  @media (min-aspect-ratio: 2/5) {
+    
+    iframe{
+        height: 128vh;
+    width: 159%;
 
-@media only screen and ( max-width: 1300px)  and (max-height: 280px) {
+            }
+  }
+  @media (min-aspect-ratio: 2/1) {
+    
+    iframe{
+        height: 134vh;
+        width: 104%;
+            }
+  } */
+
+  @media (max-aspect-ratio: 9/1){/*  9  */
     iframe{
         height: 500vh;
-        width: 174%;
-    }
+        width: 100%;
+            }
+}
+  @media (max-aspect-ratio: 7/1){/*  7 */
+    iframe{
+        height: 400vh;
+        width: 100%;
+            }
+}
+  @media (max-aspect-ratio: 6/1){/*  6 */
+    iframe{
+        height: 340vh;
+        width: 100%;
+            }
+}
+  @media (max-aspect-ratio: 5/1){/*  5  */
+    iframe{
+        height: 280vh;
+        width: 100%;
+            }
+}
+  @media (max-aspect-ratio: 4/1){/*  4  */
+    iframe{
+        height: 240vh;
+        width: 100%;
+            }
+}
+  @media (max-aspect-ratio: 35/10){/*  3.5  */
+    iframe{
+        height: 200vh;
+        width: 100%;
+            }
 }
 
-
-@media only screen and ( max-width: 1300px)  and (max-height: 250px) {
-    iframe{
-height: 400vh;
-width:120%;
-    }
-}
-@media only screen and ( max-width: 1300px)  and (max-height: 200px) {
-    iframe{
-height: 550vh;
-width:118%;
-    }
-}
-
-/* 1200 */
-
-
-@media only screen and ( max-width: 1200px) and (max-height: 750px) {
-    iframe{
-width: 107%;
-    }
-}
-@media only screen and ( max-width: 1200px) and (max-height: 600px) {
-    iframe{
-    height: 200vh;
-    width:160%;
-    }
-}
-@media only screen and ( max-width: 1200px) and (max-height: 500px) {
-    iframe{
-    height: 190vh;
-    width:100%;
-    }
-}
-@media only screen and ( max-width: 1200px)  and (max-height: 420px) {
-    iframe{
-height: 230vh;
-width:120%; 
-    }
-    
-}
-
-@media only screen and ( max-width: 1200px)  and (max-height: 330px) {
-    iframe{
-height: 380vh;
-width:160%;
-    }
-}
-
-@media only screen and ( max-width: 1200px)  and (max-height: 280px) {
-    iframe{
-height: 500vh;
-width:187%;
-    }
-}
-@media only screen and ( max-width: 1200px)  and (max-height: 250px) {
-    iframe{
-height: 400vh;
-width:125%;
-    }
-}
-@media only screen and ( max-width: 1200px)  and (max-height: 200px) {
-    iframe{
-height: 420vh;
-width:104%;
-    }
-}
-
-
-/* 1100 */
-/* @media only screen and ( max-width: 1100px) and (max-height: 1400px) {
-    iframe{
-width: 280%;
-height: 133%;
-    }
-} */
-@media only screen and ( max-width: 1100px) and (max-height: 800px) {
-    iframe{
-width: 120%;
-    }
-}
-
-
-@media only screen and ( max-width: 1100px) and (max-height: 600px) {
-    iframe{
-width: 120%;
-height: 150%;
-    }
-}
-@media only screen and ( max-width: 1100px)  and (max-height: 500px) {
-    iframe{
-        height: 190vh;
-        width:100%;
-    }
-    
-}
-
-@media only screen and ( max-width: 1100px)  and (max-height: 330px) {
-    iframe{
-height: 370vh;
-width:160%;
-    }
-}
-@media only screen and ( max-width: 1100px)  and (max-height: 280px) {
-    iframe{
-height: 500vh;
-width:170%;
-    }
-}
-@media only screen and ( max-width: 1100px)  and (max-height: 200px) {
-    iframe{
-height: 420vh;
-width:104%;
-    }
-}
-
-
-/* 1000 */
-@media only screen and ( max-width: 1000px) and (max-height: 800px) {
-    iframe{
-width: 130%;
-    }
-}
-
-@media only screen and ( max-width: 1000px)  and (max-height: 500px) {
-    iframe{
-        height: 160vh;
-        width:100%;
-    }
-    
-}
-
-
-@media only screen and ( max-width: 1000px)  and (max-height: 330px) {
-    iframe{
-height: 330vh;
-width:160%;
-    }
-}
-@media only screen and ( max-width: 1000px)  and (max-height: 280px) {
-    iframe{
-height: 450vh;
-width:170%;
-    }
-}
-@media only screen and ( max-width: 1000px)  and (max-height: 200px) {
-    iframe{
-height: 420vh;
-width:104%;
-    }
-}
-
-
-
-
-
-
-
-
-/* 900 */
-
-@media only screen and ( max-width: 900px) and (max-height: 800px) {
-    iframe{
-width: 150%;
-    }
-}
-@media only screen and ( max-width: 900px)  and (max-height: 500px) {
+  @media (max-aspect-ratio: 30/10){/*  3  */
     iframe{
         height: 170vh;
-        width:130%;
-    }
-    
+        width: 100%;
+            }
 }
-
-
-@media only screen and ( max-width: 900px)  and (max-height: 330px) {
+@media (max-aspect-ratio: 28/10){/*  2.8  */
     iframe{
-height: 280vh;
-width:160%;
-    }
+        height: 160vh;
+        width: 100%;
+            }
 }
-@media only screen and ( max-width: 900px)  and (max-height: 280px) {
+  @media (max-aspect-ratio: 26/10){/*  2.6  */
     iframe{
-        height: 375vh;
-        width: 170%;
-    }
+        height: 160vh;
+        width: 100%;
+            }
 }
-@media only screen and ( max-width: 900px)  and (max-height: 200px) {
+@media (max-aspect-ratio: 24/10){/*  2.4 */
     iframe{
-height:350vh;
-width:104%;
-    }
+        height: 140vh;
+        width: 100%;
+            }
 }
 
 
-
-
-/* 800 */
-
-@media only screen and ( max-width: 800px) and (max-height: 800px) {
+  @media (max-aspect-ratio: 22/10){/*  2.2  */
     iframe{
-width: 160%;
-height: 110%;
-    }
+        height: 130vh;
+        width: 100%;
+            }
 }
-@media only screen and ( max-width: 800px) and (max-height: 600px) {
+@media (max-aspect-ratio: 2/1){/*  2  */
     iframe{
-width: 120%;
-height: 130%;
-    }
+        height: 120vh;
+        width: 100%;
+            }
 }
-@media only screen and ( max-width: 800px)  and (max-height: 500px) {
+@media (max-aspect-ratio: 18/10){/*  1.8  */
+    iframe{
+        height: 110vh;
+        width: 100%;
+            }
+}
+
+  @media (max-aspect-ratio: 16/10){/*  1.6  */
+    iframe{
+        height: 110vh;
+        width: 117%;
+            }
+}
+@media (max-aspect-ratio: 14/10){/*  1.4  */
     iframe{
         height: 150vh;
-        width:115%;
-    }
-    
+        width: 175%;
+            }
+}
+@media (max-aspect-ratio: 12/10){/*  1.2 */
+    iframe{
+        height: 153vh;
+        width: 225%;
+            }
 }
 
 
-@media only screen and ( max-width: 800px)  and (max-height: 330px) {
+  @media (max-aspect-ratio: 1/1){/*  1 */
     iframe{
-height: 280vh;
-width:160%;
-    }
-}
-@media only screen and ( max-width: 800px)  and (max-height: 280px) {
-    iframe{
-height: 280vh;
-width:145%;
-    }
-}
-@media only screen and ( max-width: 800px)  and (max-height: 220px) {
-    iframe{
-height: 250vh;
-width:104%;
-    }
-}
-
-
-/* 700 */
-
-@media only screen and ( max-width: 700px) and (max-height: 800px) {
-    iframe{
-width: 200%;
-    }
-}
-@media only screen and ( max-width: 700px) and (max-height: 600px) {
-    iframe{
-width: 120%;
-height: 130%;
-    }
-}
-@media only screen and ( max-width: 700px)  and (max-height: 500px) {
-    iframe{
-        height: 150vh;
-        width:135%;
-    }
-    
-}
-
-
-@media only screen and ( max-width: 700px)  and (max-height: 330px) {
-    iframe{
-height: 210vh;
-width:160%;
-    }
-}
-@media only screen and ( max-width: 700px)  and (max-height: 280px) {
-    iframe{
-height: 280vh;
-width:170%;
-    }
-}
-@media only screen and ( max-width: 700px)  and (max-height: 220px) {
-    iframe{
-height: 250vh;
-width:104%;
-    }
-}
-/* 600 */
-
-
-@media only screen and ( max-width: 600px) and (max-height: 800px) {
-    iframe{
-width: 240%;
-    }
-}
-@media only screen and ( max-width: 600px)  and (max-height: 500px) {
-    iframe{
-        height: 150vh;
-        width:160%;
-    }
-    
-}
-
-
-@media only screen and ( max-width: 600px)  and (max-height: 330px) {
-    iframe{
-height: 210vh;
-width:160%;
-    }
-}
-@media only screen and ( max-width: 600px)  and (max-height: 280px) {
-    iframe{
-height: 280vh;
-width:170%;
-    }
-}
-@media only screen and ( max-width: 600px)  and (max-height: 220px) {
-    iframe{
-height: 250vh;
-width:104%;
-    }
-}
-
-
-/* 500 */
-
-
-
-
-@media only screen and ( max-width: 500px) and (max-height: 800px) {
-    iframe{
-width: 295%;
-height: 124%;
-    }
-}
-@media only screen and ( max-width: 500px)  and (max-height: 500px) {
-    iframe{
-        height: 150vh;
-        width:195%;
-    }
-    
-}
-
-
-@media only screen and ( max-width: 500px)  and (max-height: 330px) {
-    iframe{
-height: 177vh;
-width:160%;
-    }
-}
-@media only screen and ( max-width: 500px)  and (max-height: 280px) {
-    iframe{
-height: 195vh;
-width:170%;
-    }
-}
-@media only screen and ( max-width: 500px)  and (max-height: 220px) {
-    iframe{
-height: 250vh;
-width:104%;
-    }
+        height: 120vh;
+        width: 200%;
+            }
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media only screen and (max-height: 200px) {
+  @media (max-aspect-ratio: 17/20){/*  0.85  */
     iframe{
-height: 660vh;
-    }
-    .transparent{
-        font-size: 7rem;
-
-    }
-    .hideHolder{
-        width:18vw;
-    }
+        height: 100vh;
+        width: 200%;
+            }
 }
-@media only screen and (max-height: 155px) {
-    iframe{
-height: 710vh;
-    }
-    .transparent{
-        font-size: 7rem;
 
-    }
-    .hideHolder{
-        width:18vw;
-    }
+
+@media (max-aspect-ratio: 3/4){/*  0.75  */
+    iframe{
+        height: 115vh;
+        width: 233%;
+            }
 }
-@media only screen and (min-height: 1300px) {
+
+@media (max-aspect-ratio: 16/25){ /*  0.64*/
     iframe{
-width:220%;
-    }
-    .transparent{
-        font-size: 7rem;
+        height: 111vh;
+        width: 307%;
+            }
+}
 
-    }
-    .hideHolder{
-        width:18vw;
-    }
-} */
-/* @media only screen and (min-width: 1300px) {
+
+@media (max-aspect-ratio: 1/2){  /* 0.5 */
     iframe{
-width:110%;
-    }
-    .transparent{
-        font-size: 7rem;
-
-    }
-    .hideHolder{
-        width:18vw;
-    }
-} */
-
+        height: 113vh;
+        width: 383%;
+            }
+}
+@media (max-aspect-ratio: 2/5){  /* 0.4 */
+    iframe{
+        height: 107vh;
+        width: 475%;
+            }
+}
+@media (max-aspect-ratio: 3/10){  /* 0.3 */
+    iframe{
+        height: 113vh;
+        width: 600%;
+            }
+}
+@media (max-aspect-ratio: 26/100){  /* 0.26 */
+    iframe{
+        height: 120vh;
+        width: 900%;
+            }
+}

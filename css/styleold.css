@@ -1,0 +1,930 @@
+html{
+    font-size: .625vw;
+}
+.container{
+    width:100%;
+    animation-fill-mode: backwards;
+    animation-name: opacity;
+    animation-duration: 3s;
+    overflow: hidden;
+    position: absolute;
+    /* 16:9 */
+	/* padding-bottom: 56.25%; */
+	padding-top: 0px;
+    /* height: 0; */
+    padding-bottom: 0;
+    height: 56.25%;
+    z-index: -1;
+}
+body{
+    margin:0;
+    padding:0;
+}
+
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+iframe {
+    pointer-events: none;
+	position: fixed;
+	top: -55px;
+	left: 0;
+	width: 100%;
+    height: 133%;
+    z-index: -1;
+}
+ .transparent{
+    width:100%;
+    height: 10vh;
+    z-index:1;
+    opacity:1;
+    background-color: rgba(128, 128, 128, 0);
+    margin-top:30vh;
+    margin-bottom: 40vh;
+    text-align: center;
+    font-size: 5rem;
+    padding-top:5vh;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color:white;
+} 
+
+.hide1{
+    animation-name: showme1;
+    transform: translate(-55%,-85%);
+    position: absolute;
+    opacity: 0;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.hide2{
+    animation-name:showme2;
+    transform: translate(-55%,-85%);
+    position: absolute;
+    opacity: 0;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.hide3{
+    animation-name:showme3;
+    transform: translate(-55%,-85%);
+    position: absolute;
+    opacity: 0;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.hide4{
+    animation-name:showme4;
+    transform: translate(-55%,-85%);
+    position: absolute;
+    opacity: 0;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.hideHolder{
+    position: relative;
+    width:13vw;
+    display:inline-block;
+    text-align: center;
+    padding:0;
+    padding-left: 3px;
+    margin:0;
+}
+@keyframes showme1{
+    0% {
+    opacity: 0;
+    transform: translate(-55%,-200%);
+    }
+    6% {
+    opacity: 1;
+    transform: translate(-55%,-55%);
+    }
+    7% {
+    opacity: 1;
+    transform: translate(-55%,-85%);
+    }
+    26% {
+        opacity: 1;
+        transform: translate(-55%,-85%);
+        }
+    27%{
+    opacity:0;
+    transform: translate(-55%,0%);
+    }
+    
+    100%{
+    opacity:0;
+    transform: translate(-55%,0%);
+    }
+  }
+  @keyframes showme2{
+    0% {
+    opacity: 0;
+    transform: translate(-55%,-200%);
+    }
+    25% {
+    opacity: 0;
+    transform: translate(-55%,-200%);
+      }
+ 
+    31% {
+    opacity: 1;
+    transform: translate(-55%,-55%);
+    }
+   32% {
+    opacity: 1;
+    transform: translate(-55%,-85%);
+    }
+
+    51%{
+    opacity: 1;
+    transform: translate(-55%,-85%);
+    }
+    52% {
+        opacity: 0;
+        transform: translate(-55%,0%);
+        }
+        100%{
+
+        opacity: 0;
+        transform: translate(-55%,0%);
+        }
+
+  }
+  @keyframes showme3{
+    0% {
+    opacity: 0;
+    transform: translate(-55%,-200%);
+    }
+    50% {
+    opacity: 0;
+    transform: translate(-55%,-200%);
+      }
+ 
+    56% {
+    opacity: 1;
+    transform: translate(-55%,-55%);
+    }
+   57% {
+    opacity: 1;
+    transform: translate(-55%,-85%);
+    }
+
+    76%{
+    opacity: 1;
+    transform: translate(-55%,-85%);
+    }
+    77% {
+        opacity: 0;
+        transform: translate(-55%,0%);
+        }
+        100%{
+
+        opacity: 0;
+        transform: translate(-55%,0%);
+        }
+
+  }
+  @keyframes showme4{
+    0%{
+
+        opacity: 0;
+        transform: translate(-55%,-85%);
+    }
+    1%{
+    opacity: 1;
+    transform: translate(-55%,-85%);
+}
+        2%{
+
+        opacity: 0;
+        transform: translate(-55%,0%);
+        }
+    2% {
+    opacity: 0;
+    transform: translate(-55%,0%);
+    }
+    75% {
+    opacity: 0;
+    transform: translate(-55%,-200%);
+      }
+ 
+    81% {
+    opacity: 1;
+    transform: translate(-55%,-55%);
+    }
+   82% {
+    opacity: 1;
+    transform: translate(-55%,-85%);
+    }
+
+    100%{
+    opacity: 1;
+    transform: translate(-55%,-85%);
+    }
+   
+
+  }
+.mainPage{
+    width:100%;
+    height: 800vh;
+    background-color: rgb(230, 230, 230);
+    z-index:1;
+    background-color: rgba(131, 127, 127);
+}
+.topBar{
+    height: 100px;
+    width:100%;
+    background-color: rgb(230, 230, 230);
+    position: fixed;
+    top:0px;
+    left:0;
+    display:flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+.logo{
+    font-family: fantasy;
+    padding-left: 5%;
+    font-size: 6rem;
+    font-weight: bold;
+    padding-top:2vh;
+}
+
+.infos{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+}
+
+.tel{
+    height: 50%;
+    display:flex;
+    justify-content: flex-end;
+    padding-top:2%;
+    padding-right: 2%;
+
+}
+.tel i{
+    font-size: 3rem;
+    padding: 20%;
+    opacity: .5;
+}
+.tel i:hover{
+    color:red;
+}
+.tel button{
+    margin-left:2%;
+    margin-right: 2%;
+}
+.number{
+    font-size: 2.5rem;
+    margin-left:2%;
+    padding: 1%;
+}
+.menuBar{
+    height:50%;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+.menuBar a{
+    text-decoration: none;
+    color:black;
+    font-size:2rem;
+    vertical-align: middle;
+}
+.dropdown,.dropdown2{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width:10%;
+    font-size:2rem;
+    transition: height .5s;
+    z-index: 3;
+
+}
+.dropdown2>a{
+    text-decoration: none;
+    color:black;
+    font-size:rem;
+    padding-top: 10%;
+    transition: opacity .5s;
+}
+.dropdown2{
+    background-color: white;
+    width:250%;
+    transition: opacity .5s, height .5s;
+    opacity:0.3;
+    overflow: hidden;
+    padding-left:2%;
+}
+.dropdown:hover>.dropdown2{
+    opacity:1;
+    height: 50vh;
+}
+
+.dropdown:hover{
+    height: 50vh;
+}
+.dropdown:hover>span{
+background-color: white;
+}
+.dropdown:not(:hover){
+    height: 0;
+}
+.dropdown:not(:hover)>.dropdown2{
+    height: 0;
+}
+ /* @media only screen and (max-width: 900px) {
+    iframe{
+width: 180%;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+} */
+
+/* @media only screen and (max-width: 600px) {
+    iframe{
+width: 220%;
+    }
+    .transparent{
+        font-size: 8rem;
+
+    }
+    .hideHolder{
+        width:19vw;
+    }
+} */
+/* @media only screen and (max-width: 450px) {
+    iframe{
+width: 550%;
+height:180%;
+    } 
+    .transparent{
+        font-size: 8rem;
+
+    }
+    .hideHolder{
+        width:22vw;
+    
+    }
+}*/
+/* 1500 */
+/* @media only screen and ( max-width: 1500px) and (max-height: 1100px) {
+    iframe{
+width: 220%;
+height: 168%;
+    } */
+
+
+
+    
+@media only screen and ( max-width: 1500px) and (max-height: 800px) {
+    iframe{
+        width: 100%;
+        height: 133%;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and ( max-width: 1500px) and (max-height: 600px) {
+    iframe{
+    height: 250vh;
+    width:160%;
+    }
+}
+
+@media only screen and ( max-width: 1500px) and (max-height: 500px) {
+    iframe{
+    height: 270vh;
+    width:130%;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and ( max-width: 1500px)  and (max-height: 420px) {
+    iframe{
+height: 266vh;
+width:110%; 
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and ( max-width: 1500px)  and (max-height: 330px) {
+    iframe{
+/* height: 550vh;
+width:110%; */
+height: 505vh;
+width: 187%;
+    }
+ 
+}
+@media only screen and ( max-width: 1500px)  and (max-height: 280px) {
+    iframe{
+        height: 560vh;
+        width: 174%;
+    }
+}
+@media only screen and ( max-width: 1500px)  and (max-height: 250px) {
+    iframe{
+height: 550vh;
+width:150%;
+    }
+}
+@media only screen and ( max-width: 1500px)  and (max-height: 200px) {
+    iframe{
+height: 550vh;
+width:110%;
+    }
+}
+
+
+
+
+
+/* 1300 */
+@media only screen and ( max-width: 1300px) and (max-height: 600px) {
+    iframe{
+    height: 230vh;
+    width:160%;
+    }
+}
+@media only screen and ( max-width: 1300px) and (max-height: 500px) {
+    iframe{
+    height: 190vh;
+    width:100%;
+    }
+}
+
+@media only screen and ( max-width: 1300px)  and (max-height: 420px) {
+    iframe{
+height: 266vh;
+width:120%; 
+    }
+    
+}
+
+@media only screen and ( max-width: 1300px)  and (max-height: 330px) {
+    iframe{
+height: 420vh;
+width: 150%;
+    }
+ 
+}
+
+@media only screen and ( max-width: 1300px)  and (max-height: 280px) {
+    iframe{
+        height: 500vh;
+        width: 174%;
+    }
+}
+
+
+@media only screen and ( max-width: 1300px)  and (max-height: 250px) {
+    iframe{
+height: 400vh;
+width:120%;
+    }
+}
+@media only screen and ( max-width: 1300px)  and (max-height: 200px) {
+    iframe{
+height: 550vh;
+width:118%;
+    }
+}
+
+/* 1200 */
+
+
+@media only screen and ( max-width: 1200px) and (max-height: 750px) {
+    iframe{
+width: 107%;
+    }
+}
+@media only screen and ( max-width: 1200px) and (max-height: 600px) {
+    iframe{
+    height: 200vh;
+    width:160%;
+    }
+}
+@media only screen and ( max-width: 1200px) and (max-height: 500px) {
+    iframe{
+    height: 190vh;
+    width:100%;
+    }
+}
+@media only screen and ( max-width: 1200px)  and (max-height: 420px) {
+    iframe{
+height: 230vh;
+width:120%; 
+    }
+    
+}
+
+@media only screen and ( max-width: 1200px)  and (max-height: 330px) {
+    iframe{
+height: 380vh;
+width:160%;
+    }
+}
+
+@media only screen and ( max-width: 1200px)  and (max-height: 280px) {
+    iframe{
+height: 500vh;
+width:187%;
+    }
+}
+@media only screen and ( max-width: 1200px)  and (max-height: 250px) {
+    iframe{
+height: 400vh;
+width:125%;
+    }
+}
+@media only screen and ( max-width: 1200px)  and (max-height: 200px) {
+    iframe{
+height: 420vh;
+width:104%;
+    }
+}
+
+
+/* 1100 */
+/* @media only screen and ( max-width: 1100px) and (max-height: 1400px) {
+    iframe{
+width: 280%;
+height: 133%;
+    }
+} */
+@media only screen and ( max-width: 1100px) and (max-height: 800px) {
+    iframe{
+width: 120%;
+    }
+}
+
+
+@media only screen and ( max-width: 1100px) and (max-height: 600px) {
+    iframe{
+width: 120%;
+height: 150%;
+    }
+}
+@media only screen and ( max-width: 1100px)  and (max-height: 500px) {
+    iframe{
+        height: 190vh;
+        width:100%;
+    }
+    
+}
+
+@media only screen and ( max-width: 1100px)  and (max-height: 330px) {
+    iframe{
+height: 370vh;
+width:160%;
+    }
+}
+@media only screen and ( max-width: 1100px)  and (max-height: 280px) {
+    iframe{
+height: 500vh;
+width:170%;
+    }
+}
+@media only screen and ( max-width: 1100px)  and (max-height: 200px) {
+    iframe{
+height: 420vh;
+width:104%;
+    }
+}
+
+
+/* 1000 */
+@media only screen and ( max-width: 1000px) and (max-height: 800px) {
+    iframe{
+width: 130%;
+    }
+}
+
+@media only screen and ( max-width: 1000px)  and (max-height: 500px) {
+    iframe{
+        height: 160vh;
+        width:100%;
+    }
+    
+}
+
+
+@media only screen and ( max-width: 1000px)  and (max-height: 330px) {
+    iframe{
+height: 330vh;
+width:160%;
+    }
+}
+@media only screen and ( max-width: 1000px)  and (max-height: 280px) {
+    iframe{
+height: 450vh;
+width:170%;
+    }
+}
+@media only screen and ( max-width: 1000px)  and (max-height: 200px) {
+    iframe{
+height: 420vh;
+width:104%;
+    }
+}
+
+
+
+
+
+
+
+
+/* 900 */
+
+@media only screen and ( max-width: 900px) and (max-height: 800px) {
+    iframe{
+width: 150%;
+    }
+}
+@media only screen and ( max-width: 900px)  and (max-height: 500px) {
+    iframe{
+        height: 170vh;
+        width:130%;
+    }
+    
+}
+
+
+@media only screen and ( max-width: 900px)  and (max-height: 330px) {
+    iframe{
+height: 280vh;
+width:160%;
+    }
+}
+@media only screen and ( max-width: 900px)  and (max-height: 280px) {
+    iframe{
+        height: 375vh;
+        width: 170%;
+    }
+}
+@media only screen and ( max-width: 900px)  and (max-height: 200px) {
+    iframe{
+height:350vh;
+width:104%;
+    }
+}
+
+
+
+
+/* 800 */
+
+@media only screen and ( max-width: 800px) and (max-height: 800px) {
+    iframe{
+width: 160%;
+height: 110%;
+    }
+}
+@media only screen and ( max-width: 800px) and (max-height: 600px) {
+    iframe{
+width: 120%;
+height: 130%;
+    }
+}
+@media only screen and ( max-width: 800px)  and (max-height: 500px) {
+    iframe{
+        height: 150vh;
+        width:115%;
+    }
+    
+}
+
+
+@media only screen and ( max-width: 800px)  and (max-height: 330px) {
+    iframe{
+height: 280vh;
+width:160%;
+    }
+}
+@media only screen and ( max-width: 800px)  and (max-height: 280px) {
+    iframe{
+height: 280vh;
+width:145%;
+    }
+}
+@media only screen and ( max-width: 800px)  and (max-height: 220px) {
+    iframe{
+height: 250vh;
+width:104%;
+    }
+}
+
+
+/* 700 */
+
+@media only screen and ( max-width: 700px) and (max-height: 800px) {
+    iframe{
+width: 200%;
+    }
+}
+@media only screen and ( max-width: 700px) and (max-height: 600px) {
+    iframe{
+width: 120%;
+height: 130%;
+    }
+}
+@media only screen and ( max-width: 700px)  and (max-height: 500px) {
+    iframe{
+        height: 150vh;
+        width:135%;
+    }
+    
+}
+
+
+@media only screen and ( max-width: 700px)  and (max-height: 330px) {
+    iframe{
+height: 210vh;
+width:160%;
+    }
+}
+@media only screen and ( max-width: 700px)  and (max-height: 280px) {
+    iframe{
+height: 280vh;
+width:170%;
+    }
+}
+@media only screen and ( max-width: 700px)  and (max-height: 220px) {
+    iframe{
+height: 250vh;
+width:104%;
+    }
+}
+/* 600 */
+
+
+@media only screen and ( max-width: 600px) and (max-height: 800px) {
+    iframe{
+width: 240%;
+    }
+}
+@media only screen and ( max-width: 600px)  and (max-height: 500px) {
+    iframe{
+        height: 150vh;
+        width:160%;
+    }
+    
+}
+
+
+@media only screen and ( max-width: 600px)  and (max-height: 330px) {
+    iframe{
+height: 210vh;
+width:160%;
+    }
+}
+@media only screen and ( max-width: 600px)  and (max-height: 280px) {
+    iframe{
+height: 280vh;
+width:170%;
+    }
+}
+@media only screen and ( max-width: 600px)  and (max-height: 220px) {
+    iframe{
+height: 250vh;
+width:104%;
+    }
+}
+
+
+/* 500 */
+
+
+
+
+@media only screen and ( max-width: 500px) and (max-height: 800px) {
+    iframe{
+width: 295%;
+height: 124%;
+    }
+}
+@media only screen and ( max-width: 500px)  and (max-height: 500px) {
+    iframe{
+        height: 150vh;
+        width:195%;
+    }
+    
+}
+
+
+@media only screen and ( max-width: 500px)  and (max-height: 330px) {
+    iframe{
+height: 177vh;
+width:160%;
+    }
+}
+@media only screen and ( max-width: 500px)  and (max-height: 280px) {
+    iframe{
+height: 195vh;
+width:170%;
+    }
+}
+@media only screen and ( max-width: 500px)  and (max-height: 220px) {
+    iframe{
+height: 250vh;
+width:104%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (max-height: 200px) {
+    iframe{
+height: 660vh;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and (max-height: 155px) {
+    iframe{
+height: 710vh;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+}
+@media only screen and (min-height: 1300px) {
+    iframe{
+width:220%;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+} */
+/* @media only screen and (min-width: 1300px) {
+    iframe{
+width:110%;
+    }
+    .transparent{
+        font-size: 7rem;
+
+    }
+    .hideHolder{
+        width:18vw;
+    }
+} */
+
