@@ -3,9 +3,9 @@ html{
 }
 .container{
     width:100%;
-    animation-fill-mode: backwards;
+    /* animation-fill-mode: backwards; */
     animation-name: opacity;
-    animation-duration: 3s;
+    animation-duration: 5s;
     overflow: hidden;
     position: absolute;
     /* 16:9 */
@@ -39,13 +39,14 @@ iframe {
     z-index: -1;
 }
  .transparent{
+     position: relative;
     width:100%;
     height: 10vh;
-    z-index:1;
+    z-index:0;
     opacity:1;
     background-color: rgba(128, 128, 128, 0);
     margin-top:30vh;
-    margin-bottom: 40vh;
+    /* margin-bottom: 40vh; */
     text-align: center;
     font-size: 5rem;
     padding-top:5vh;
@@ -342,36 +343,7 @@ background-color: white;
 .dropdown:not(:hover)>.dropdown2{
     height: 0;
 }
-/*  
-@media (max-aspect-ratio: 3/2) {
-    
-    iframe{
-        height: 123vh;
-        width: 148%;
-            }
-  }
-  @media (max-aspect-ratio: 9/10) {
-    
-    iframe{
-        height: 128vh;
-        width: 188%;
-            }
-  }
-  @media (min-aspect-ratio: 2/5) {
-    
-    iframe{
-        height: 128vh;
-    width: 159%;
 
-            }
-  }
-  @media (min-aspect-ratio: 2/1) {
-    
-    iframe{
-        height: 134vh;
-        width: 104%;
-            }
-  } */
 
   @media (max-aspect-ratio: 9/1){/*  9  */
     iframe{
@@ -482,10 +454,6 @@ background-color: white;
             }
 }
 
-
-
-
-
   @media (max-aspect-ratio: 17/20){/*  0.85  */
     iframe{
         height: 100vh;
@@ -493,22 +461,18 @@ background-color: white;
             }
 }
 
-
 @media (max-aspect-ratio: 3/4){/*  0.75  */
     iframe{
         height: 115vh;
         width: 233%;
             }
 }
-
 @media (max-aspect-ratio: 16/25){ /*  0.64*/
     iframe{
         height: 111vh;
         width: 307%;
             }
 }
-
-
 @media (max-aspect-ratio: 1/2){  /* 0.5 */
     iframe{
         height: 113vh;
@@ -533,3 +497,63 @@ background-color: white;
         width: 900%;
             }
 }
+.buttonHolder{
+    width:100%;
+    height:5vh;
+    margin-bottom:40vh;
+    margin-top:3vh;
+    position: relative;
+    top:0;
+    left:0;
+
+}
+.ButtonLeft{
+ width:20%;
+ height: 7vh;
+ background-color: red;
+ font-size: 3rem;
+position:absolute;
+left:-20%;
+top:0;
+animation-name:fastin;
+    animation-duration: .2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode:  cubic-bezier(.81,.73,1,1.26);
+    animation-fill-mode: forwards;
+    color:white;
+    text-align:center;
+    padding-top:1%; 
+}
+@keyframes fastin{
+ from{left:0;}
+ to{left:28%;}
+}
+.ButtonLeft:hover{
+    opacity:.4;
+}
+.ButtonRight{
+            width:20%;
+            height: 7vh;
+            background-color: red;
+            font-size: 3rem;
+        position:absolute;
+        right:-20%;
+        top:0;
+        animation-name:fastin2;
+       animation-duration: .2s;
+       animation-delay: 2.2s;
+       animation-iteration-count: 1;
+       animation-fill-mode:  cubic-bezier(.81,.73,1,1.26);
+       animation-fill-mode: forwards;
+       color:white;
+       text-align:center;
+       padding-top:1%; 
+   }
+   @keyframes fastin2{
+    from{right:0;}
+    to{right:28%;}
+   }
+   .ButtonRight:hover{
+       opacity:.4;
+   }
